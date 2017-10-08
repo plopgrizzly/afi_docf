@@ -1,4 +1,4 @@
-# Plop Grizzly Contributing Guidelines
+# Plop Grizzly Contributing Guidelines v1.0.0
 
 Want to contribute to the Aldaron's Format Interface / Aldaron's Document Format (docf)?
 Here's how to get started!
@@ -26,7 +26,7 @@ You can find the rules on how Plop Grizzly formats code [here](http://plopgrizzl
 If you have added a feature from one of the feature requests, make a pull request for it to be reviewed.
 
 ## Adding Backend/Platform Support
-If you've added platform of backend support, make a pull request for it to be reviewed.
+If you've added platform or backend support, make a pull request for it to be reviewed.
 Unlike features, you are not required to open an issue before making a pull request.
 
 ## Questions
