@@ -1,0 +1,48 @@
+# Aldaron's Format Interface / Aldaron's Document Format (docf)                #
+# Copyright (c) 2017 Plop Grizzly, Jeron Lau <jeron.lau@plopgrizzly.com>       #
+# Licensed under the MIT LICENSE                                               #
+#                             _        _                                       #
+#                            /@\——————/@\                                      #
+# .———  .                   |   o    o   |     .————      .            .       #
+# |   | |  .———   .———   .——.     []     .——.  |      .——    ———: ———: | .   . #
+# |   | |  |   |  |   |  \   \   <##>   /   /  |      |   |    /    /  | |   | #
+# |———  |  |   |  |   |   |   ¯        ¯   |   |   -- |   |   /    /   |  \ /  #
+# |     |  |   |  |———    |                |   |    | |   |  /    /    |   |   #
+# |     |   ———   |       |                |    ————  |   | :——— :———  |   |   #
+#                 |        \              /                              __/   #
+#                           ¯————————————¯                                     #
+# Cargo.toml                                                                   #
+
+################################################################################
+
+[package]
+name = "afi_docf"
+version = "0.0.1"
+authors = ["Jeron Aldaron Lau <jeron.lau@plopgrizzly.com>"]
+
+################################################################################
+
+license = "MIT"
+documentation = "https://docs.rs/afi_docf"
+homepage = "http://plopgrizzly.com/afi_docf"
+repository = "https://github.com/plopgrizzly/afi_docf"
+
+################################################################################
+
+readme = "README.md"
+description = """
+    Aldaron's Format Interface / docf is a library developed by Plop Grizzly for
+    reading and writing docf (Aldaron's Document Format) files.
+"""
+keywords = ["window", "graphics", "interface", "native", "ffi"]
+categories = ["gui", "os::unix-apis"]
+
+################################################################################
+
+exclude = ["examples/*", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md", ".gitignore"]
+
+################################################################################
+
+[dependencies]
+
+################################################################################
