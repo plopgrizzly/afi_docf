@@ -7,6 +7,12 @@
 //! Aldaron's Format Interface / docf is a library developed by Plop Grizzly for
 //! reading and writing docf (Aldaron's Document Format) files.
 
+#![no_std]
+#![warn(missing_docs)]
+#![doc(html_logo_url = "http://plopgrizzly.com/afi_docf/icon.png",
+	html_favicon_url = "http://plopgrizzly.com/afi_docf/icon.png",
+	html_root_url = "http://plopgrizzly.com/afi_docf/")]
+
 /// Text alignment
 #[repr(u8)] #[derive(PartialEq, Copy, Clone)]
 pub enum Align {
