@@ -43,7 +43,7 @@ pub enum Emphasis {
 	Italic = 0b_1000_0000_u8,
 }
 
-/// Text Color
+/// Text color
 #[repr(u8)] #[derive(PartialEq, Copy, Clone)]
 pub enum FontColor {
 	/// Black on light background, or white on dark background
